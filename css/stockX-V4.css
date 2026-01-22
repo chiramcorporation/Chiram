@@ -1,0 +1,206 @@
+.inline-link {
+    display: inline;
+    vertical-align: top;
+    line-height: 28px;
+    color: #cc6611;
+    font-size: 16px;
+}
+
+.inline-link p {
+  color: #000;
+  display: inline;
+}
+
+.inline-tab-space {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+body {
+    box-sizing: border-box;
+    background: linear-gradient(to top, #f8dd99 70%, #F9E2A8 30%);
+    padding: 0;
+    margin: 0;
+  }
+  body::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+.success-message-box {
+  border: 1px solid rgb(112 235 112);
+  width: auto;
+  color: rgb(112 235 112);
+  position: relative;
+  padding: 0.1rem 0.5rem;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 0.25rem;
+}
+
+[aria-hidden="false"][hidden] {
+  display: initial;
+}
+
+[hidden] { display: none !important; }
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 2px 0px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: -1px 1px 3px 0px rgb(100 100 100 / 50%);
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+.save-all-button {
+  background-color: #008CBA;
+    color: white;
+    border: #008CBA;
+    border-radius: 3px;
+    box-shadow: -1px 1px 3px 0px rgb(100 100 100 / 50%);
+    padding: 5px 10px;
+}
+
+.inline-edit-button {
+  background-color: #c07c2e;
+    color: white;
+    border: #f8b705;
+    border-radius: 3px;
+    box-shadow: -1px 1px 3px 0px rgb(100 100 100 / 50%);
+    padding: 5px 10px;
+}
+
+.cancel-button {
+  background-color: #f44336;
+    color: white;
+    border: #f44336;
+    border-radius: 3px;
+    box-shadow: -1px 1px 3px 0px rgb(100 100 100 / 50%);
+    padding: 5px 10px;
+}
+
+.header-section {
+  background: #cc6611;
+  padding: 1rem 1.5rem;
+}
+
+.header-section h1 {
+  /* height: 10vh; */
+  margin: 0;
+  color: #fff;
+}
+
+.left-section {
+  float: left;
+}
+
+.main-section {
+  padding: 0.5rem 1rem;
+}
+
+.content {
+  /* background: white; */
+  margin:0 auto;
+  /* padding: 0.5rem 0.5rem; */
+  background: linear-gradient(to top, #f8dd99 70%, #F9E2A8 30%);
+}
+
+form {
+  position: relative;
+  margin: 0;
+  padding-top: 0.25rem;
+  min-height: 100px;
+}
+
+form > input {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+table {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+p {
+  margin: 0.25rem 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+p a {
+  color: #008cba;
+  padding: 0 0.25rem;
+}
+
+#displaySection {  
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.top-banner {
+  height: 100px;
+  margin: 0.5rem;
+  opacity:70%;
+}
+
+.left-banner {
+  width: 135px;
+  margin: 0 0.5rem;
+  opacity:70%;
+}
+
+.right-banner {
+  width: 325px;
+  margin: 0 0.5rem;
+  opacity:70%;
+}
+
+.main-content {
+  display: flex;
+}
+
+.container-fluid {
+  background: white;
+  width: calc(100% - 476px);
+  box-shadow: 0 0 40px rgb(0 0 0 / 15%);
+  padding: 6px;
+}
+
+footer {
+  margin-top: 0.5rem;
+  padding: 8px;
+  text-align: center;
+  opacity:70%;
+}
+
+@media only screen and (max-width: 1040px) {
+  .main-content {
+    display: block;
+  }
+  .container-fluid {
+    width: calc(100% - 28px);
+    margin: 0 0.5rem;
+  }
+  .left-banner {
+    display: none;
+  }
+  .right-banner {
+    min-height: 100px;
+    height: auto;
+    margin: 0.5rem 0.5rem 0;
+    width: calc(100% - 1rem);
+  }
+}
