@@ -37,16 +37,6 @@
     };
     document.head.appendChild(verScript);
 
-    // Inject Chart.js Library
-    const chartScript = document.createElement('script');
-    // chartScript.src = 'https://cdn.jsdelivr.net/npm/chart.js';
-    chartScript.src = 'https://cdn.jsdelivr.net/npm/chart.js?t=' + new Date().getTime();
-    document.head.appendChild(chartScript);
-
-    // Inject Analytics Module
-    const analyticsScript = document.createElement('script');
-    // analyticsScript.src = 'js/analytics.js';
-    analyticsScript.src = 'js/analytics.js?t=' + new Date().getTime();
-    document.head.appendChild(analyticsScript);
+    
 
 })();
